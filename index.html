@@ -5,7 +5,7 @@
   <body>
     <script src="script-0.js"></script> 
     <h1>ESTI</h1>
-    <div><form name="ecran"><input =type="text"></input></form></div>
+    <div><form name="ecran"><input id="input" type="text" value=''></input></form></div>
     <table style="border:1px solid black">
       <form name="calc">
         <tr>
@@ -14,7 +14,7 @@
           <td style="border:1px solid black"><input type="button" value="9" ></td>
           <td style="border:1px solid black"><input type="button" value="+" ></td>
         </tr>
-        
+
         <tr>
           <td style="border:1px solid black"><input type="button" value="4" ></td>
           <td style="border:1px solid black"><input type="button" value="5" ></td>
@@ -28,12 +28,14 @@
           <td style="border:1px solid black"><input type="button" value="3" ></td>
           <td style="border:1px solid black"><input type="button" value="*" ></td>
         </tr>
+
         <tr>
-          <td style="border:1px solid black"><input type="reset"  value="C">                              </td>
-          <td style="border:1px solid black"><input type="button" value="0" onClick="">                   </td>   
-          <td style="border:1px solid black"><input type="button" value="=" onClick="">                   </td>
-          <td style="border:1px solid black"><input type="button" value="/" >				  </td>
+          <td style="border:1px solid black"><input type="reset"  value="C"></td>
+          <td style="border:1px solid black"><input type="button" value="0"></td>   
+          <td style="border:1px solid black"><input id='solve' type="button" value="="></td>
+          <td style="border:1px solid black"><input type="button" value="/" ></td>
         </tr>
+
       </form>
     </table>
     
