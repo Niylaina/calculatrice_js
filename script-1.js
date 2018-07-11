@@ -17,5 +17,10 @@ button_reset.addEventListener('click', function(e){
 })
 
 button_solve.addEventListener('click', function(e){
-    input.value = eval(input.value)
+    try {
+        input.value = eval(input.value)
+    } catch (error) {
+        alert('Une erreur s\'est produite.\nVeuillez reessayer.')
+        input.value = ''
+    }
 })
